@@ -1,3 +1,28 @@
 body{
-background:purple;
+    background-color: aqua;
+}
+.ht{
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+     padding: 50px;
+     background-color: rgb(234, 255, 46);
+     width: 75%;
+     height:100px ;
+     margin-left:8%;
+     border: 5px red;
+     border-style: dotted;
+}
+.con{
+    background-color: rgb(99, 192, 76);
+    text-align: center;
+    font-size: 28px;
+    border: 5px purple;
+    border-style: dashed;
+    height: 100px;
+    width: 75%;
+    margin-left: 8%;
+    margin-top: 5px;
+    padding: 50px;
+    padding-bottom: 100px;
 }

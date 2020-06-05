@@ -1,28 +1,48 @@
-body{
-    background-color: aqua;
-}
-.ht{
+.web-title {
+    width: 100%;
+    height: 150px;
+    background-color: dodgerblue;
     text-align: center;
-    font-size: 26px;
-    color: blue;
-     padding: 50px;
-     background-color: rgb(234, 255, 46);
-     width: 75%;
-     height:100px ;
-     margin-left:8%;
-     border: 5px red;
-     border-style: dotted;
+    color: brown;
+    display: inline-block;
 }
-.con{
-    background-color: rgb(99, 192, 76);
+
+body {
+    margin: 0px;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: e3e1da;
+}
+
+.q-box {
+    width: 96%;
+    height: 800px;
+    background-color: rgb(238, 121, 222);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.q-box-color {
+    width: 1300px;
+    height: 200px;
+    background: black;
+    color: white;
     text-align: center;
-    font-size: 28px;
-    border: 5px purple;
-    border-style: dashed;
-    height: 100px;
-    width: 75%;
-    margin-left: 8%;
-    margin-top: 5px;
-    padding: 50px;
-    padding-bottom: 100px;
+}
+
+.q-box-qs {
+    width: 1300px;
+    height: 200px;
+    background-color: darkorange;
 }

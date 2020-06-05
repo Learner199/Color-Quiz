@@ -34,7 +34,7 @@ body {
 }
 
 .q-box-color {
-    width: 100px;
+    width: 100%;
     height: 200px;
     background: black;
     color: white;
@@ -42,7 +42,7 @@ body {
 }
 
 .q-box-qs {
-    width: 100px;
+    width: 100%;
     height: 200px;
     background-color: darkorange;
 }

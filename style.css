@@ -6,7 +6,7 @@ body{
   
 }
  .web-title {
-    width: 100%;
+    width: auto;
     height: 150px;
     background-color: dodgerblue;
     text-align: center;

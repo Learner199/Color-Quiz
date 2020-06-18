@@ -49,11 +49,11 @@ h1{
   background:white;
 }
 
-.color-box{
+.color-box-1{
   padding:40px 0px;
-  background:black;
+  background:#de1b2e;
   border-radius:10px;
-  color:white;
+  color:#18c46e;
   font-size:40px;
   display:flex;
   justify-content:center;
@@ -61,6 +61,29 @@ h1{
   
 }
 
+.color-box-2{
+  padding:40px 0px;
+  background:#2f2fa2;
+  border-radius:10px;
+  color:#fcec03;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-3{
+  padding:40px 0px;
+  background:#873737;
+  border-radius:10px;
+  color:#ff0789;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
 
 
 .radio{
@@ -92,9 +115,12 @@ label{
 .rb1{
   margin-right:3px;
   padding:3px 5px;
+  border:3px solid black;
   border-radius:2px;
-  background:darkgray;
-  
+  background:black;
+  opacity:.9;
+  color:white;
+  f
   
 }
 

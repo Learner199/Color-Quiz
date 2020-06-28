@@ -21,7 +21,7 @@ body{
    align-items:center;
 }
 
-.about{
+a{
   text-decoration:none;
   padding:0px 5px;
   font-size:20px;
@@ -57,9 +57,10 @@ h1{
 .color-box-1{
   padding:40px 0px;
   background:#de1b2e;
-  border-radius:10px;
+  border-top-left-radius:10px;
+   border-top-right-radius:10px;
   color:#18c46e;
-  font-size:30px;
+  font-size:40px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -69,9 +70,10 @@ h1{
 .color-box-2{
   padding:40px 0px;
   background:#2f2fa2;
-  border-radius:10px;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
   color:#fcec03;
-  font-size:30px;
+  font-size:40px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -81,9 +83,100 @@ h1{
 .color-box-3{
   padding:40px 0px;
   background:#873737;
-  border-radius:10px;
+  border-top-left-radius:10px;
+   border-top-right-radius:10px;
   color:#ff0789;
-  font-size:30px;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-4{
+  padding:40px 0px;
+  background:#18c46e;
+  border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:#fc3d03;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-5{
+  padding:40px 0px;
+  background:#fcec03;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:#de1b2e;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-6{
+  padding:40px 0px;
+  background:#ff0789;
+ border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:#2f2fa2;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-7{
+  padding:40px 0px;
+  border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  border-radius:10px;
+  color:black;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+.color-box-7{
+  padding:40px 0px;
+  background:#fc3d03;
+ border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:black;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-8{
+  padding:40px 0px;
+  background:black;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:white;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.color-box-9{
+  padding:40px 0px;
+  background:#2f2fa2 ;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+  color:white;
+  font-size:40px;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -91,15 +184,25 @@ h1{
 }
 
 
+
+
+
 .radio{
   height:auto;
-  background:white;
   padding:0px 20px;
-  border-bottom:1px solid #b4b5b8;
+/*   border-bottom:1px solid #b4b5b8;
    border-left:1px solid #b4b5b8;
    border-right:1px solid #b4b5b8;
-  border-radius:10px;
+  border-radius:10px; */
  
+}
+
+.workspace{
+  background:white;
+  padding:0px 0px;
+  border-bottom:1px solid silver;
+   border-left:1px solid #silver;
+   border-right:1px solid silver;
 }
 
 input[type="radio"] { 
@@ -124,8 +227,8 @@ label{
   margin-right:3px;
   padding:3px 5px;
   border-bottom:.5px solid black;
-  border-radius:2px;
-  background:#bec0c4;
+  border-radius:1px;
+  background:#cdd1d1;
   color:black;
   font-size:10px;
   
@@ -133,7 +236,6 @@ label{
 
 p{
   text-align:left;
-  font-size:14px;
 }
 
 .radio-group{
